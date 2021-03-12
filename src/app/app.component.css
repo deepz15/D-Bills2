@@ -1,0 +1,82 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    background-color:#ff7b25;
+    color: #b2ad7f;
+    font-weight: 600;
+    font-family: monospace;
+  }
+  .content {
+    position: relative;
+    top: 26px;
+    left: 255px;
+}
+  .openbut{
+  position: relative;
+  z-index: 2;
+  }
+  button.Bl {
+    position: relative;
+    top: -83px;
+    left: 347px;
+    background-color: #b2ad7f;
+    height: 30px;
+    width: 65px;
+    font-family: monospace;
+    border: 1px solid #ffff;
+  }
+ 
+button.ent {
+  position: relative;
+  top: -83px;
+  left: 176px;
+  background-color: #b2ad7f;
+  height: 30px;
+  width: 60px;
+  font-family: monospace;
+  border: 1px solid #ffff;
+}
+
+.lt{
+  position: relative;
+  top: -83px;
+  left: 330px;
+  background-color: #b2ad7f;
+  height: 30px;
+  width: 65px;
+  font-family: monospace;
+  border: 1px solid #ffff;
+}
+nav{
+  height: 20vh;
+  background-color: #ffff;
+}
+.nav-links{
+  display: flex;
+}
+.nav-links li {
+  color:black;
+  font-size: 16px;
+
+}
+
+  /* .sidenav {
+    height: 60%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  } */

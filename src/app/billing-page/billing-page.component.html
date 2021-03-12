@@ -1,0 +1,25 @@
+<div>
+<table class="tab">
+  <tr>
+    <th>Product</th> 
+    <th>Amount</th> 
+    <th>Quantity</th> 
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let r of this.app2Service.rocket2 ; let i = index">
+    <td> 
+      <select class="sel" [(ngModel)]="r.pname" (change)="changeR(r)">
+      <option *ngFor="let x of this.app2Service.rocket2">{{x.pname}}</option>
+    </select></td>
+    
+    <td><input class="inpA" type="number" [(ngModel)]="r.amount"></td>
+    
+    <td><input class="inpq" type="number" [(ngModel)]="r.quant"></td>
+    <td>{{r.amount * r.quant}}</td>
+  </tr>
+</table>
+<button (click)="addrow()">Add</button></div>
+<button (click)="save()">Save</button> 
+ 
+<h3>{{getTotal()}}</h3>
+<router-outlet></router-outlet>

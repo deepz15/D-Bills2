@@ -1,0 +1,7 @@
+.box{
+    height:100%;
+    width:40%;
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+border-width: 5px;
+}       

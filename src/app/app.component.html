@@ -1,0 +1,33 @@
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+  />
+  
+<div class="content" role="main">
+ <h1 [routerLink]="['Home']"> D-Bills</h1>
+ <!-- <nav [style] = 'navStyle'>
+   <div class="main">
+     <div class="line"></div>
+     <div class="line"></div>
+     <div class="line"></div>
+    </div>
+
+<ul class="nav-link">
+  <li [routerLink]="['Home']"> Home </li>
+  <li [routerLink]="['Entry']"> Entry</li>
+  <li [routerLink]="['Billing']"> Bill</li>
+  <li [routerLink]="['List']"> Bill-list</li>
+</ul>
+
+  
+ </nav> -->
+   <br><br>
+   
+   <button class="Bl" [routerLink]="['Billing']">Billing </button>
+   <button class="ent" [routerLink]="['Entry']">Entry</button>
+  <button class="lt" [routerLink]="['List']">B-List</button>
+
+  </div>
+</div>
+ 
+<router-outlet></router-outlet>

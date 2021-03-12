@@ -1,0 +1,13 @@
+.intro{
+
+position: relative;
+    top: 114px;
+    left: 176px;
+    font-family: monospace;
+    text-shadow: turquoise;
+    color: #ffff;
+}
+div{
+    height: 100%;
+    width: 100%;
+}
